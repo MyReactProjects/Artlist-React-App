@@ -5,7 +5,9 @@ import StudentListItem from '../components/StudentListItem'
 
 class Students extends React.Component {
   handleOnClick(){
-    consol.log('on click')
+    console.log('on click');
+    //Set State For page
+    //Render correct values for student component
   }
     render() {
       return (

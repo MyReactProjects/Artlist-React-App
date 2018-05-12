@@ -2,12 +2,12 @@ import React from 'react';
 class Student extends React.Component {
 
 handleOnChange() {
-
+  //change state of THIS student values
 }
 
     render() {
       return (
-        <div>
+        <div className="student-valus">
         <h2>Details</h2>
         <ul>
         {/*Add Value and onchange method to the inputs*/}
